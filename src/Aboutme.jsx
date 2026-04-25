@@ -2,7 +2,7 @@ import { Avatar,Typography, Box, Paper, Chip } from "@mui/material";
 import profilePic from "./assets/profilepic.jpg";
 
 function AboutMe() {
-  const skills = ["React", "JavaScript", "Python", "SQL", "CSS", "HTML"];
+  const skills = ["React", "JavaScript", "Python", "C#", "SQL", "CSS", "HTML"];
   const interests = ["Traveling", "Reading", "Motorcycles", "Gaming"];
 
   return (
