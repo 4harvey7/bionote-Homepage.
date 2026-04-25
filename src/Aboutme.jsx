@@ -1,22 +1,42 @@
-import { Avatar,Typography, Box, Paper, Chip } from "@mui/material";
+import { Avatar, Typography, Box, Paper, Chip } from "@mui/material";
 import profilePic from "./assets/profilepic.jpg";
 
 function AboutMe() {
-  const skills = ["React", "JavaScript", "Python", "C#", "SQL", "CSS", "HTML"];
-  const interests = ["Traveling", "Reading", "Motorcycles", "Gaming"];
+  // Updated data
+  const skills = [
+    "React",
+    "JavaScript",
+    "Python",
+    "C#",
+    "SQL",
+    "CSS",
+    "HTML",
+    "Node.js",
+    "Firebase",
+    "IoT (ESP8266 / Arduino)"
+  ];
+
+  const interests = [
+    "Web Development",
+    "AI & Automation",
+    "Motorcycles",
+    "Gaming",
+    "Tech Innovation",
+    "Building Projects"
+  ];
 
   return (
     <>
       {/* Name Section */}
       <Box textAlign="center" mt={4} mb={4}>
         <Avatar
-        alt="Rodz Harvey"
-        src={profilePic}
-        sx={{ width: 120, height: 120, margin: "0 auto" }}
+          alt="Rodz Harvey"
+          src={profilePic}
+          sx={{ width: 120, height: 120, margin: "0 auto" }}
         />
         <Typography variant="h3">Rodz Harvey D. Licayan</Typography>
         <Typography variant="subtitle1">
-          IT Manager | Programmer | Creative Thinker
+          IT Student | Programmer | Capstone Developer
         </Typography>
       </Box>
 
@@ -25,9 +45,10 @@ function AboutMe() {
         <Box p={2}>
           <Typography variant="h5">About Me</Typography>
           <Typography>
-            Hi! I am Rodz Harvey, a creative programmer and IT manager from Cebu,
-            Philippines. I enjoy building innovative web applications and learning
-            new technologies to solve real-world problems.
+            Hi! I am Rodz Harvey, an IT student from Cebu Technological University - Argao Campus.
+            I specialize in web development, IoT systems, and AI-assisted applications. I enjoy
+            building real-world systems like Smart Parking and AI-based evaluation platforms,
+            and I am always exploring new technologies to improve my skills.
           </Typography>
         </Box>
       </Paper>
