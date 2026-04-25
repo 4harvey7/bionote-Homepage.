@@ -1,20 +1,23 @@
 import { Typography, Box, Paper, Chip, List, ListItem } from "@mui/material";
 
 function ProfessionalProfile() {
-  // Example data
+  // Updated data
   const experience = [
-    { role: "IT Manager", company: "Company A", years: "2019 - Present" },
-    { role: "Web Developer", company: "Company B", years: "2016 - 2019" },
+    { role: "Capstone Project Lead (iEvaluate System)", company: "Cebu Technological University - Argao Campus", years: "2025 - Present" },
+    { role: "Frontend Developer (Academic & Freelance Projects)", company: "Self-Projects", years: "2023 - Present" },
+    { role: "IoT & Embedded Systems Developer", company: "School Projects (ESP8266 / Arduino)", years: "2024 - Present" },
   ];
 
   const education = [
-    { degree: "BS in Programming", school: "Cebu Technological University", years: "2010 - 2014" },
+    { degree: "BS in Information Technology", school: "Cebu Technological University - Argao Campus", years: "2022 - Present" },
   ];
 
   const featureProjects = [
+    { name: "iEvaluate: AI-Driven Instructor Evaluation System", type: "Capstone Project" },
     { name: "Green Hub Marketplace", type: "Group Project" },
-    { name: "Task Management System", type: "Personal Project" },
-    { name: "IBarangay", type: "Group Project" }
+    { name: "Smart Parking System (IoT + Firebase)", type: "Group Project" },
+    { name: "Task Management System Web App", type: "Personal Project" },
+    { name: "IBarangay Information System", type: "Group Project" }
   ];
 
   return (
